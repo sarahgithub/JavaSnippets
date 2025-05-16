@@ -1,73 +1,43 @@
-# JavaSnippets
-A lightweight Java utility library with ready-to-use snippets for dates, strings, validation, and more.
-💡 Solve common Java problems with a simple, reusable toolkit.
+# JavaSnippets - A Java Utility Library
 
-🚀 Features
-Date & Time: Convert between time zones, format dates, and more. 
-Validation: Email, phone, password, etc.
-String Manipulation: Convert case, truncate, slugify, etc.
-Networking: Get public IP address, ping servers, etc.
-I/O: Download files from a URL, read from files, etc.
+A collection of lightweight, reusable Java code snippets to help you solve common problems. This library includes utilities for time conversion, validation, security, I/O operations, number formatting, string manipulation, and network utilities.
 
-#Functions:
-Convert local time to UTC
-Convert UTC to local
-Validate email
-Generate random password
-Download file from URL
-Format number with commas
-Convert camelCase to snake_case
-Slugify a string
-Strip HTML tags
-Get public IP address
+## 🚀 Features
+- **Convert Local Time to UTC**
+- **Convert UTC to Local Time**
+- **Validate Email**
+- **Generate Secure Random Password**
+- **Download File from URL**
+- **Format Number with Commas**
+- **Convert camelCase to snake_case**
+- **Slugify a String**
+- **Strip HTML Tags**
+- **Get Public IP Address**
 
-📦 Installation
-1. Maven / Gradle Installation (JitPack)
-You can easily integrate JavaSnippets into your project using Maven or Gradle.
+## 📦 Installation
 
-<dependency>
-    <groupId>com.snippets</groupId>
-    <artifactId>JavaSnippets</artifactId>
-    <version>1.0.0</version>
-</dependency>
+You can use this project in your Java project in two ways:
 
-dependencies {
-    implementation 'com.yourname:JavaSnippets:1.0.0'
-}
-2. Copy & Paste from GitHub
-If you prefer to manually include the code, simply copy the snippets you need directly from the JavaSnippets GitHub repo.
+## Clone the Repository
 
-JavaSnippets/
-├── README.md
-├── src/
-│   └── com/
-│           └── snippets/
-│               ├── TimeUtils.java
-│               ├── Validator.java
-│               ├── SecurityUtils.java
-│               ├── IOUtils.java
-│               ├── NumberUtils.java
-│               ├── StringUtils.java
-│               └── NetworkUtils.java
-└── pom.xml 
+Clone this repository to your local machine:
 
-💻 Usage
-1. Convert Local Time to UTC:
-     String utcTime = TimeUtils.convertLocalToUTC();
-     System.out.println("Local to UTC: " + utcTime);
+git clone https://github.com/yourname/JavaSnippets.git
 
-2. Validate Email:
-     boolean isValid = Validator.isValidEmail("example@domain.com");
-     System.out.println("Is valid email: " + isValid);
+## License
 
 
-License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+##  Contributing
 
+If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. Please make sure your code adheres to the following guidelines:
 
-🌐 Contributing
-Contributions are welcome! Feel free to fork the repo, create issues, and submit pull requests for new snippets.
+Follow Java conventions for readability.
 
+Write meaningful commit messages.
 
+Ensure your code is well-documented.
 
+## Author
+Sarah Khan
